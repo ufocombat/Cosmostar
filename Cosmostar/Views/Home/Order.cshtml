@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Заказ";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Заказ</p>
+
+@if (ViewBag.Sum == 0)
+{
+    <p>Проверьте данные заказа</p>
+}
+else
+{
+@ViewBag.Description
+@ViewBag.Quantity
+@ViewBag.OrderTime
+
+<div>
+    <h3>Сумма заказа</h3>
+     @ViewBag.Sum;
+</div>
+
+}

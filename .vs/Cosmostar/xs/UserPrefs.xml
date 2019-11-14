@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{79EE7469-198F-4678-8582-574DBAE6D4E6}|Default">
+  <MonoDevelop.Ide.ItemProperties.Cosmostar PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Cosmostar/Views/Home/Order.cshtml">
+    <Files>
+      <File FileName="Cosmostar/Views/Home/Index.cshtml" Line="20" Column="129" />
+      <File FileName="Cosmostar/Controllers/HomeController.cs" Line="25" Column="31" />
+      <File FileName="Cosmostar/Views/Home/Order.cshtml" Line="17" Column="1" />
+      <File FileName="Cosmostar/Models/OrderItemClass.cs" Line="7" Column="19" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Cosmostar" expanded="True">
+            <Node name="Cosmostar" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True">
+                  <Node name="Order.cshtml" selected="True" />
+                </Node>
+                <Node name="Shared" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

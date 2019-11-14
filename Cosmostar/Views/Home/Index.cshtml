@@ -1,0 +1,47 @@
+﻿@model Cosmostar.Models.OrderItemClass;
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Добро пожаловать</h1>
+</div>
+
+
+<div class="pt-5">
+
+    @using (Html.BeginForm("Order", "Home", FormMethod.Post))
+    {
+      <label class="mr-sm-2" for="inlineFormCustomSelect">Укажите товар</label>
+     @Html.TextBoxFor(model => model.Description, new { @class = "form-control", placeholder = "Название" })
+
+    <div class="pt-3">
+      <label for="inputZip">Количество упаковок</label>
+        @Html.TextBoxFor(model => model.Quantity, new { @class = "form-control", placeholder = "Количество", @required="required" })
+    </div>
+    <div class="pt-3">
+      <label for="inputZip">Дата поставки</label>
+         @Html.TextBoxFor(model => model.OrderTime, new { @class = "form-control", placeholder = "Дата и время" })
+    </div>
+    <div class="pt-4">
+
+    <button type="submit" class="btn btn-success btn-lg">Заказать</button>
+    </div>
+
+    }
+
+</div>
+
+
+</br>
+
+
+
+<div class="text-center">
+    <img src="~/img/qr.png" alt="Smiley face" height="30%" width="30%">
+ </div>
+
+<div>
+    <img src="~/img/ccc.jpg" alt="Smiley face" height="100%" width="100%">
+
+ </div>
